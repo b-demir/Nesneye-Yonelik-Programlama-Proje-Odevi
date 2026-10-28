@@ -24,7 +24,7 @@ Projede 4 adet SOLID prensibi uygulanmıştır:
 ## Tasarım Kalıpları
 Sistem mimarisinde 2 tasarım kalıbı (Design Pattern) uygulanmıştır:
 * **Singleton Pattern:** `VeriYoneticisi` sınıfı, eşzamanlı dosya okuma/yazma çakışmalarını önlemek için bellekte tekil bir nesne olarak tasarlanmıştır.
-* **Factory Pattern:** `MekanFabrikasi` sınıfı, `Derslik` ve `Laboratuvar` nesnelerinin dinamik olarak oluşturulmasını üstlenir.
+* **Factory Pattern:** `MekanFactory` sınıfı, `Derslik` ve `Laboratuvar` nesnelerinin dinamik olarak oluşturulmasını üstlenir.
 
 ## Birim Testleri (Unit Tests)
 Sistemin doğruluğunu kanıtlamak amacıyla JUnit kütüphanesi kullanılarak en az 8 birim testi yazılmıştır. Bu testler kapasite kontrollerini, Singleton tekilliğini, sınıf özellikleri atamalarını ve Fabrika kalıbının nesne üretim süreçlerini otomatik olarak denetler.
